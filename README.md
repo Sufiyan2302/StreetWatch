@@ -50,6 +50,8 @@ Add screenshots like:
 
 ### Home Page
 ![Home](https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/Home.png)
+<img src="https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/Home.png" alt="Home" />
+
 
 ### Form Page
 ![Form](https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/form.png)
