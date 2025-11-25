@@ -19,14 +19,13 @@ const Home = () => {
   let recentform = () => {
     reportnavigate("/RecentReport", {
       state: {
-        login: data.state.login,
-        admindata: data.state.admindata,
+        login: data?.state?.login,
+        admindata: data?.state?.admindata,
       },
     });
   };
 
   return (
-    
     <div>
       <NavLink
         to={"/admin"}
