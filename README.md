@@ -46,9 +46,10 @@ A modern React + Firebase application that allows users to report issues, upload
 Add screenshots like:
 
 ```
+![image alt]()
+![image alt]()
+![image alt]()
 
-/screenshots/create-report.png
-/screenshots/reports-list.png
 ```
 
 ---
