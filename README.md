@@ -49,7 +49,8 @@ Add screenshots like:
 ## Screenshots
 
 ### Home Page
-![Home](reports.png)
+![Home](https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/src/screens/Home.png
+)
 <img src="https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/Home.png" alt="Home" />
 
 
