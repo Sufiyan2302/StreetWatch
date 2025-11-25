@@ -46,10 +46,7 @@ A modern React + Firebase application that allows users to report issues, upload
 Add screenshots like:
 
 ```
-## Screenshots
 
-### Home Page
-![Home](https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/Home.png)
 
 
 
