@@ -48,7 +48,7 @@ Add screenshots like:
 ```
 ![Home](https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/Home.png)
 ![Form](https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/form.png)
-![Reports](https://raw.githubusercontent.com/Sufiyan2302/StreetWatch/main/reports.png)
+![Reports](https://github.com/Sufiyan2302/StreetWatch/blob/main/reports.png?raw=true)
 
 
 ```
