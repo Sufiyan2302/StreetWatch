@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------- Global Background -------- */
+#root {
+  height: 100vh;
+  width: 100%;
+  background: #0b0b0d; /* deep black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fef3c7;
+}
+
+/* -------- Home Container -------- */
+.HomeContainer {
+  height: 500px;
+  width: 500px;
+  background: #141418;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+
+  border: 2px solid #fb923c33;
+  box-shadow: 0 0 20px #fb923c44;
+}
+
+.HomeContainer > button {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff7ed;
+  height: 60px;
+  width: 200px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  box-shadow: 0 0 12px #f9731644;
+  transition: 0.2s ease;
+}
+
+.HomeContainer > button:hover {
+  background: linear-gradient(135deg, #fb923c, #c2410c);
+  box-shadow: 0 0 22px #fb923c88;
+}
+
+/* -------- Form Main -------- */
+.form-main {
+  height: 100vh;
+  width: 100%;
+  background: #0b0b0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------- Form Box -------- */
+.form-info {
+  height: 500px;
+  width: 500px;
+  background: #1a1a1f;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border: 2px solid #f9731633;
+  box-shadow: 0 0 20px #f9731644;
+}
+
+.form-info > input {
+  height: 40px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+
+  background: #ffedd5;
+  border: 2px solid #f9731655;
+  border-radius: 8px;
+
+  color: #0f0f11;
+
+  box-shadow: inset 0 0 10px #f9731622;
+}
+
+.form-info > button {
+  height: 30px;
+  width: 100px;
+  font-size: 20px;
+
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: #fff7ed;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+
+  box-shadow: 0 0 12px #f9731644;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.form-info > button:hover {
+  background: linear-gradient(135deg, #fb923c, #c2410c);
+  box-shadow: 0 0 22px #fb923c88;
+}
+
+/* -------- Report Main Page -------- */
+.report-main {
+  height: 100vh;
+  width: 100vh;
+  background: #0d0d10;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Each report card */
+.report-main > div {
+  background: #1a1a1f;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+
+  border: 2px solid #f9731633;
+  box-shadow: 0 0 20px #f9731644;
+}
+
+/* Text inside report cards */
+.report-main h1,
+.report-main p {
+  color: #ffedd5;
+  font-weight: bold;
+}
+
+/* Buttons inside report cards */
+.report-main button {
+  font-size: 16px;
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: #fff7ed;
+  border: none;
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+
+  box-shadow: 0 0 10px #f9731633;
+  transition: 0.2s ease;
+}
+
+.report-main button:hover {
+  background: linear-gradient(135deg, #fb923c, #c2410c);
+  box-shadow: 0 0 20px #fb923c88;
+}
+
+/* Image inside reports */
+.report-main img {
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+
+  box-shadow: 0 0 15px #f9731644, 0 0 40px #ea580c33;
+}
+
+/* -------- Admin Login Page -------- */
+.admin-login {
+  height: 100vh;
+  width: 100%;
+  background: #0b0b0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-box {
+  background: #141418;
+  padding: 25px;
+  border-radius: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  border: 2px solid #f9731633;
+  box-shadow: 0 0 20px #f9731644;
+}
+
+/* Inputs */
+.admin-box input {
+  height: 40px;
+  width: 100%;
+  background: #0f0f11;
+  border: 2px solid #f9731655;
+  color: #ffedd5;
+  padding-left: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+
+  box-shadow: inset 0 0 10px #f9731622;
+}
+
+/* Buttons */
+.admin-box button {
+  height: 40px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff7ed;
+  cursor: pointer;
+
+  transition: 0.2s ease;
+  box-shadow: 0 0 12px #f9731644;
+}
+
+.admin-box button:hover {
+  background: linear-gradient(135deg, #fb923c, #c2410c);
+  box-shadow: 0 0 22px #fb923c88;
+}
+
+.app-logo {
+  position: fixed;
+  top: 20px;
+  left: 25px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fcd34d; /* warm yellow like your theme */
+  letter-spacing: 1px;
+  z-index: 1000;
+  font-family: "Poppins", sans-serif;
+  cursor: default;
+
+  text-shadow: 0 0 8px #f59e0b55;
+}
+
+.app-logo:hover {
+  text-shadow: 0 0 12px #fbbf2466;
+}
