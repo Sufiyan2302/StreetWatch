@@ -31,9 +31,13 @@ const Recentreport = () => {
   };
 
   let ondelete = async (id) => {
+    let okay = confirm("Are you sure you want to delete this");
+    if(!okay){
+      return
+    }
     try {
       let deletereport = doc(db, "reports", id);
-      confirm("Are you sure you want to delete this");
+      
       await deleteDoc(deletereport);
       setreport((prev) => prev.filter((item) => item.id !== id));
     } catch (err) {
